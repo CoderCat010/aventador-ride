@@ -3,7 +3,6 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(43, 90%, 50%);
   --first-color-alt: hsl(43, 88%, 48%);
   --text-color: hsl(0, 0%, 42%);
@@ -31,19 +30,25 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  background-color: var(--body-color);
-  color: var(--black-color);
-} */
+body {
+  /* background-color: var(--body-color);
+  color: var(--black-color); */
+  font-family: "Ubuntu", sans-serif;
+}
 
 input,
 button {
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 ul {
   list-style: none;
+}
+
+li{
+  cursor: pointer;
 }
 
 a {
@@ -74,7 +79,29 @@ nav{
   align-items: center;
 }
 
+nav h3{
+  color: rgb(66, 66, 66);
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .navbar-menu{
   display: flex;
   gap: 50px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.navbar-menu li{
+  font-size: 17px;
+  color: #ffffffdc;
+}
+
+.navbar-menu button{
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #dd8e4a;
+  color: #ffffffdc;
 }
