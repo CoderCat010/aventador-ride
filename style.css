@@ -62,13 +62,13 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
 }
 
 .header-parent-div{
-  background-color: rgba(0, 0, 0, 0.219);
+  background: rgba(0, 0, 0, 0.219);
   width: 100%;
-  height: 100vh;
+  height: 110vh;
 }
 
 /* navbar part */
@@ -104,4 +104,36 @@ nav h3{
   border-radius: 10px;
   background-color: #dd8e4a;
   color: #ffffffdc;
+}
+
+
+/* BANNER SECTION */
+.banner-section{
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.banner-title{
+  text-align: center;
+}
+
+.banner-title h3{
+  letter-spacing: 1px;
+  color: #000;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.banner-title h1{
+  font-size: 100px;
+  letter-spacing: 2px;
+  color: var(--white-color);
+}
+
+.banner-img{
+  display: flex;
+  justify-content: center;
+}
+.banner-img img{
+  top: -78px;
+  position: relative;
 }
