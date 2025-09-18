@@ -1,7 +1,5 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
-
   /*========== Colors ==========*/
   --first-color: hsl(43, 90%, 50%);
   --first-color-alt: hsl(43, 88%, 48%);
@@ -31,8 +29,6 @@ html {
 }
 
 body {
-  /* background-color: var(--body-color);
-  color: var(--black-color); */
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -75,7 +71,7 @@ a {
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 30px 80px;
+  padding: 20px 80px;
   align-items: center;
 }
 
