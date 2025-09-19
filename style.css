@@ -94,12 +94,13 @@ nav h3{
 }
 
 .navbar-menu button{
-  font-size: 17px;
-  font-weight: 500;
-  padding: 10px 30px;
-  border-radius: 10px;
-  background-color: #dd8e4a;
-  color: #ffffffdc;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #ffc400;
+  background: transparent;
+  color: #fff;
+  border-radius: 3px;
 }
 
 
