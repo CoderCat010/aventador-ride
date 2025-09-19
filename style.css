@@ -133,3 +133,81 @@ nav h3{
   top: -78px;
   position: relative;
 }
+
+
+/*=============== MAIN PART ===============*/
+/* home section */
+.home-section{
+  background-color: var(--body-second-color);
+  padding: 100px 80px;
+}
+
+.home-section-parent-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-title-container{
+  max-width: 500px;
+}
+
+.home-title-container h1{
+  color: #fff;
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.home-title-container span{
+  color: #000;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.home-title-container p{
+  color: #ffffffe0;
+}
+
+.home-title-container button {
+  padding: 9px 20px;
+  margin-top: 30px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 4px 12px hsla(43, 88%, 32%, .4);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.home-title-container button svg {
+  transition: transform 0.4s;
+
+}
+
+.home-title-container button:hover svg {
+  transform: translateX(0.2rem);
+}
+
+.home-video-container {
+  width: 350px;
+  height: 500px;
+  transform: skew(-12deg);
+  box-shadow: var(--shadow-img, 0 10px 20px rgba(0, 0, 0, 0.3));
+  display: grid;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-video-container video {
+  max-width: none;
+  height: 100%;
+  transform: skew(12deg);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) skew(12deg); 
+}
+
