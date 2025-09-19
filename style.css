@@ -212,3 +212,67 @@ nav h3{
   transform: translate(-50%, -50%) skew(12deg); 
 }
 
+
+/* car model section */
+.models-section{
+  margin: 100px 80px;
+}
+
+.models-img-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.models-img-content {
+  width: 300px;
+  height: 400px;
+  transform: skew(-12deg);
+  box-shadow: var(--shadow-img, 0 10px 20px rgba(0, 0, 0, 0.3));
+  display: grid;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: -100px; 
+  left: 50px;
+  color: white;
+  font-size: 20px;
+  transition: bottom 0.4s ease;
+  z-index: 2;
+  transform: skew(12deg);
+}
+
+.image-wrapper:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.719); 
+}
+
+.image-wrapper:hover .hover-text {
+  bottom: 50px; 
+}
+
