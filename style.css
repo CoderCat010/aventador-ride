@@ -331,4 +331,22 @@ nav h3{
   top: -130px;
 }
 
+.model-information-container{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: -80px;
+}
+
+.model-information-container li{
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.model-information-container span{
+  font-size: 16px;
+  font-weight: normal;
+}
+
 
