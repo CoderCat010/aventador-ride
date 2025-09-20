@@ -296,4 +296,38 @@ nav h3{
 }
 
 
+/* information section */
+.info-section{
+  margin: 100px 80px;
+}
+
+.info-title{
+  text-align: center;
+}
+
+.info-title p{
+  color: #000000b7;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.info-title h1{
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.info-img-container h1{
+  font-size: 250px;
+  font-weight: 900;
+  color: #0000001c;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.info-img-container img{
+  position: relative;
+  top: -130px;
+}
+
 
