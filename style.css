@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 input,
@@ -118,10 +118,13 @@ nav h3{
   letter-spacing: 1px;
   color: #000;
   font-family: "Montserrat Alternates", sans-serif;
+  position: relative;
+  bottom: -15px;
+  font-size: 20px;
 }
 
 .banner-title h1{
-  font-size: 100px;
+  font-size: 140px;
   letter-spacing: 2px;
   color: var(--white-color);
 }
@@ -131,7 +134,7 @@ nav h3{
   justify-content: center;
 }
 .banner-img img{
-  top: -78px;
+  top: -95px;
   position: relative;
 }
 
@@ -291,4 +294,6 @@ nav h3{
 .image-wrapper:hover .hover-text {
   bottom: 50px; 
 }
+
+
 
