@@ -427,3 +427,41 @@ nav h3{
 .contact-contents button:hover svg {
   transform: translateX(0.2rem);
 }
+
+
+/* footer section */
+footer{
+   margin: 80px 0 0 0;
+}
+
+.footer-parent-div{
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+}
+
+.footer-container-items ul{
+   display: flex;
+}
+
+.footer-contact{
+   display: flex;
+   gap: 20px;
+}
+
+.footer-contact li{ 
+   font-size: 20px; 
+   padding: 7px 10px;
+   color: #fff;
+   border: 1px solid #29141407;
+   background-color: var(--first-color);
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.185);
+   border-radius: 50%;
+}
+
+.footer-copyright{
+   text-align: center;
+   padding: 30px 0;
+   color: #333333b7;
+}
+
