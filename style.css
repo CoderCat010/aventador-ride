@@ -354,13 +354,14 @@ nav h3{
 .contact-section{
   padding: 100px 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: var(--body-second-color);
+  align-items: center;
 }
 
 .contact-img-container {
-  width: 350px;
-  height: 500px;
+  width: 400px;
+  height: 550px;
   transform: skew(-12deg);
   box-shadow: var(--shadow-img, 0 10px 20px rgba(0, 0, 0, 0.3));
   display: grid;
@@ -379,6 +380,7 @@ nav h3{
   font-size: 50px;
   font-weight: 900;
   color: #fff;
+  margin-bottom: 30px;
 }
 
 .contact-contents p{
@@ -389,8 +391,8 @@ nav h3{
 }
 
 .contact-contents input {
-  width: 400px;
-  padding: 15px;
+  width: 500px;
+  padding: 17px 15px;
   font-size: 18px;
   border: 1px solid #fff;
   background: transparent;
@@ -398,9 +400,30 @@ nav h3{
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .contact-contents input::placeholder{
   color: #ffffff88;
+}
+
+.contact-contents button {
+  padding: 12px 20px;
+  margin-top: 30px;
+  font-size: 18px;
+  background-color: var(--first-color);
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.contact-contents button svg {
+  transition: transform 0.4s;
+
+}
+
+.contact-contents button:hover svg {
+  transform: translateX(0.2rem);
 }
